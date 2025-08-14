@@ -7,7 +7,7 @@ import (
 	"github.com/google/uuid"
 	"log"
 
-	__ "api-gateway/basic/proto"
+	__ "api-gateway/basic/device-proto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 )
@@ -37,6 +37,6 @@ func InitGrpc() {
 		log.Fatalf("did not connect: %v", err)
 	}
 	defer conn.Close()
-	config.DemoSrv = __.NewStreamGreeterClient(conn)
+	config.DeviceSrv = __.NewDeviceSrvClient(conn)
 
 }

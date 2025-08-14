@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a95a8f12-db7f-49f5-b27f-8c1c213830d4" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/api-gateway/basic/init/grpc.go" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/basic/init/grpc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-srv/basic/cmd/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-srv/basic/config/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-srv/basic/config/global.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-srv/basic/init/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-srv/basic/init/init.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-srv/basic/init/mongo_db.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-srv/basic/init/mysql.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-srv/basic/init/redis.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-srv/basic/proto/device.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-srv/basic/proto/device.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-srv/basic/proto/device_grpc.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-srv/dev.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-srv/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-srv/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-srv/handler/model/brand.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-srv/handler/model/device.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-srv/handler/model/device_type.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-srv/handler/model/health_data.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-srv/handler/model/health_data_type.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-srv/handler/model/health_report.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-srv/handler/model/role.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-srv/handler/model/system_log.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-srv/handler/model/user.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-srv/handler/model/user_device.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-srv/handler/model/user_role.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-srv/handler/service/service.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-srv/untils/nacos.go" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Proto Template" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../go1.23.10" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="31GJJCzMWohaRHWMQdMP9nPHJMa" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "DefaultProtoTemplateProperty": "Proto Template",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.GoLinterPluginOnboarding": "true",
+    "RunOnceActivity.GoLinterPluginStorageMigration": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "git-widget-placeholder": "master",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "D:/gowork/src/Health-Monitoring-System",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "go.vgo",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\gowork\src\Health-Monitoring-System" />
+      <recent name="D:\gowork\src\Health-Monitoring-System\api-gateway\basic" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="Health-Monitoring-System" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="Health-Monitoring-System" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-3b128438d3f6-34ac7aa8f6ab-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-251.23774.430" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-GO-251.23774.430" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="a95a8f12-db7f-49f5-b27f-8c1c213830d4" name="更改" comment="" />
+      <created>1755144403248</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1755144403248</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
