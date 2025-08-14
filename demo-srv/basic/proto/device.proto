@@ -1,0 +1,58 @@
+syntax = "proto3";
+
+package proto;
+
+option go_package = "/";
+
+
+service DeviceSrv {
+  rpc BrandAdd(BrandAddReq) returns (BrandAddResp);
+  rpc BrandDel(BrandDelReq) returns (BrandDelResp);
+  rpc BrandUpdate(BrandUpdateReq) returns (BrandUpdateResp);
+  rpc GetBrandList(GetBrandListReq) returns (GetBrandListResp);
+}
+//添加分类
+message BrandAddReq {
+  string name = 1;
+  string desc = 2;
+  string logo = 3;
+}
+message BrandAddResp {
+  int64 id = 1;
+}
+//删除分类
+message BrandDelReq {
+  int64 id = 1;
+}
+message BrandDelResp {
+  int64 id = 1;
+}
+//更新分类
+message BrandUpdateReq {
+  int64 id = 1;
+  string name = 2;
+  string desc = 3;
+  string logo = 4;
+}
+message BrandUpdateResp {
+  int64 id = 1;
+}
+//查询分类列表
+message GetBrandListReq {
+  string name = 1;
+  int64 page = 2;
+  int64 page_size = 3;
+}
+message GetBrandListResp {
+  repeated GetBrandList list = 1;
+  int64 page = 2;
+  int64 page_size = 3;
+  int64 total = 4;
+}
+message GetBrandList {
+  int64 id = 1;
+  string name = 2;
+  string desc = 3;
+  string logo = 4;
+}
+
