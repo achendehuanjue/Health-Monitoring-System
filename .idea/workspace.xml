@@ -5,34 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a95a8f12-db7f-49f5-b27f-8c1c213830d4" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/api-gateway/basic/init/grpc.go" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/basic/init/grpc.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-srv/basic/cmd/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-srv/basic/config/config.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-srv/basic/config/global.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-srv/basic/init/config.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-srv/basic/init/init.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-srv/basic/init/mongo_db.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-srv/basic/init/mysql.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-srv/basic/init/redis.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-srv/basic/proto/device.pb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-srv/basic/proto/device.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-srv/basic/proto/device_grpc.pb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-srv/dev.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-srv/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-srv/go.sum" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-srv/handler/model/brand.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-srv/handler/model/device.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-srv/handler/model/device_type.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-srv/handler/model/health_data.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-srv/handler/model/health_data_type.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-srv/handler/model/health_report.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-srv/handler/model/role.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-srv/handler/model/system_log.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-srv/handler/model/user.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-srv/handler/model/user_device.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-srv/handler/model/user_role.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-srv/handler/service/service.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-srv/untils/nacos.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GOHCache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GOHCache.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/basic/cmd/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/basic/config/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/basic/config/global.go" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/basic/config/global.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
