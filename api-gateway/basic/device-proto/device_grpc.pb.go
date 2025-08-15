@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.4.0
 // - protoc             v3.19.4
-// source: device.pex-proto
+// source: device.proto
 
 package __
 
@@ -19,16 +19,18 @@ import (
 const _ = grpc.SupportPackageIsVersion8
 
 const (
-	DeviceSrv_BrandAdd_FullMethodName     = "/pex-proto.DeviceSrv/BrandAdd"
-	DeviceSrv_BrandDel_FullMethodName     = "/pex-proto.DeviceSrv/BrandDel"
-	DeviceSrv_BrandUpdate_FullMethodName  = "/pex-proto.DeviceSrv/BrandUpdate"
-	DeviceSrv_GetBrandList_FullMethodName = "/pex-proto.DeviceSrv/GetBrandList"
+	DeviceSrv_DeviceList_FullMethodName   = "/proto.DeviceSrv/DeviceList"
+	DeviceSrv_BrandAdd_FullMethodName     = "/proto.DeviceSrv/BrandAdd"
+	DeviceSrv_BrandDel_FullMethodName     = "/proto.DeviceSrv/BrandDel"
+	DeviceSrv_BrandUpdate_FullMethodName  = "/proto.DeviceSrv/BrandUpdate"
+	DeviceSrv_GetBrandList_FullMethodName = "/proto.DeviceSrv/GetBrandList"
 )
 
 // DeviceSrvClient is the client API for DeviceSrv service.
 //
 // For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/google.golang.org/grpc/?tab=doc#ClientConn.NewStream.
 type DeviceSrvClient interface {
+	DeviceList(ctx context.Context, in *DeviceListReq, opts ...grpc.CallOption) (*DeviceListResp, error)
 	BrandAdd(ctx context.Context, in *BrandAddReq, opts ...grpc.CallOption) (*BrandAddResp, error)
 	BrandDel(ctx context.Context, in *BrandDelReq, opts ...grpc.CallOption) (*BrandDelResp, error)
 	BrandUpdate(ctx context.Context, in *BrandUpdateReq, opts ...grpc.CallOption) (*BrandUpdateResp, error)
@@ -41,6 +43,16 @@ type deviceSrvClient struct {
 
 func NewDeviceSrvClient(cc grpc.ClientConnInterface) DeviceSrvClient {
 	return &deviceSrvClient{cc}
+}
+
+func (c *deviceSrvClient) DeviceList(ctx context.Context, in *DeviceListReq, opts ...grpc.CallOption) (*DeviceListResp, error) {
+	cOpts := append([]grpc.CallOption{grpc.StaticMethod()}, opts...)
+	out := new(DeviceListResp)
+	err := c.cc.Invoke(ctx, DeviceSrv_DeviceList_FullMethodName, in, out, cOpts...)
+	if err != nil {
+		return nil, err
+	}
+	return out, nil
 }
 
 func (c *deviceSrvClient) BrandAdd(ctx context.Context, in *BrandAddReq, opts ...grpc.CallOption) (*BrandAddResp, error) {
@@ -87,6 +99,7 @@ func (c *deviceSrvClient) GetBrandList(ctx context.Context, in *GetBrandListReq,
 // All implementations must embed UnimplementedDeviceSrvServer
 // for forward compatibility
 type DeviceSrvServer interface {
+	DeviceList(context.Context, *DeviceListReq) (*DeviceListResp, error)
 	BrandAdd(context.Context, *BrandAddReq) (*BrandAddResp, error)
 	BrandDel(context.Context, *BrandDelReq) (*BrandDelResp, error)
 	BrandUpdate(context.Context, *BrandUpdateReq) (*BrandUpdateResp, error)
@@ -98,6 +111,9 @@ type DeviceSrvServer interface {
 type UnimplementedDeviceSrvServer struct {
 }
 
+func (UnimplementedDeviceSrvServer) DeviceList(context.Context, *DeviceListReq) (*DeviceListResp, error) {
+	return nil, status.Errorf(codes.Unimplemented, "method DeviceList not implemented")
+}
 func (UnimplementedDeviceSrvServer) BrandAdd(context.Context, *BrandAddReq) (*BrandAddResp, error) {
 	return nil, status.Errorf(codes.Unimplemented, "method BrandAdd not implemented")
 }
@@ -121,6 +137,24 @@ type UnsafeDeviceSrvServer interface {
 
 func RegisterDeviceSrvServer(s grpc.ServiceRegistrar, srv DeviceSrvServer) {
 	s.RegisterService(&DeviceSrv_ServiceDesc, srv)
+}
+
+func _DeviceSrv_DeviceList_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+	in := new(DeviceListReq)
+	if err := dec(in); err != nil {
+		return nil, err
+	}
+	if interceptor == nil {
+		return srv.(DeviceSrvServer).DeviceList(ctx, in)
+	}
+	info := &grpc.UnaryServerInfo{
+		Server:     srv,
+		FullMethod: DeviceSrv_DeviceList_FullMethodName,
+	}
+	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
+		return srv.(DeviceSrvServer).DeviceList(ctx, req.(*DeviceListReq))
+	}
+	return interceptor(ctx, in, info, handler)
 }
 
 func _DeviceSrv_BrandAdd_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
@@ -199,9 +233,13 @@ func _DeviceSrv_GetBrandList_Handler(srv interface{}, ctx context.Context, dec f
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var DeviceSrv_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "pex-proto.DeviceSrv",
+	ServiceName: "proto.DeviceSrv",
 	HandlerType: (*DeviceSrvServer)(nil),
 	Methods: []grpc.MethodDesc{
+		{
+			MethodName: "DeviceList",
+			Handler:    _DeviceSrv_DeviceList_Handler,
+		},
 		{
 			MethodName: "BrandAdd",
 			Handler:    _DeviceSrv_BrandAdd_Handler,
@@ -220,5 +258,5 @@ var DeviceSrv_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "device.pex-proto",
+	Metadata: "device.proto",
 }

@@ -1,4 +1,4 @@
-module demo-srv
+module device-srv
 
 go 1.23.0
 
