@@ -5,7 +5,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func DeviceRouter(v1 *gin.RouterGroup) {
+func BrandRouter(v1 *gin.RouterGroup) {
 	brand := v1.Group("/brand")
 	{
 		brand.POST("/add", api.AddBrand)
