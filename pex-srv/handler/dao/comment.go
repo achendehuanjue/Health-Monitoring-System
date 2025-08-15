@@ -9,6 +9,7 @@ import (
 	"time"
 )
 
+// 体温
 func TemperatureEmqxClient() {
 	clientID := fmt.Sprintf("mqtt-consumer-Temperature-%d", time.Now().UnixNano())
 
@@ -22,6 +23,7 @@ func TemperatureEmqxClient() {
 
 }
 
+// 血糖
 func BloodGlucoseEmqxClient() {
 	clientID := fmt.Sprintf("mqtt-consumer-BloodGlucose-%d", time.Now().UnixNano())
 
@@ -34,6 +36,7 @@ func BloodGlucoseEmqxClient() {
 	pkg.MqttClient(config.BloodGlucose)
 }
 
+// 血压
 func BloodPressureEmqxClient() {
 	clientID := fmt.Sprintf("mqtt-consumer-BloodPressure-%d", time.Now().UnixNano())
 
@@ -46,6 +49,7 @@ func BloodPressureEmqxClient() {
 	pkg.MqttClient(config.BloodPressure)
 }
 
+// 血氧
 func BloodOxygenEmqxClient() {
 	clientID := fmt.Sprintf("mqtt-consumer-BloodOxygen-%d", time.Now().UnixNano())
 
