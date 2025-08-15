@@ -3,6 +3,20 @@
   <component name="GoORMHelperCache">
     <option name="schemaMapping">
       <map>
+        <entry key="ALiPay">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/../pubilc_pkg/untils/pay.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ALiYun">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/../pubilc_pkg/untils/sms.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="AddBrandReq">
           <value>
             <set>
@@ -14,6 +28,7 @@
           <value>
             <set>
               <option value="file://$PROJECT_DIR$/device-srv/basic/config/config.go" />
+              <option value="file://$PROJECT_DIR$/../pubilc_pkg/config/config.go" />
             </set>
           </value>
         </entry>
@@ -21,6 +36,7 @@
           <value>
             <set>
               <option value="file://$PROJECT_DIR$/device-srv/handler/model/brand.go" />
+              <option value="file://$PROJECT_DIR$/user-srv/handler/model/brand.go" />
             </set>
           </value>
         </entry>
@@ -107,6 +123,21 @@
             </set>
           </value>
         </entry>
+        <entry key="ES">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/../pubilc_pkg/untils/es.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Elasticsearch">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/device-srv/basic/config/config.go" />
+              <option value="file://$PROJECT_DIR$/../pubilc_pkg/config/config.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="GetBrandList">
           <value>
             <set>
@@ -153,6 +184,27 @@
             </set>
           </value>
         </entry>
+        <entry key="JWT">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/../pubilc_pkg/middleware/jwt.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="JWTClaims">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/../pubilc_pkg/middleware/jwt.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MongoDB">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/../pubilc_pkg/config/config.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="MongoDb">
           <value>
             <set>
@@ -164,6 +216,22 @@
           <value>
             <set>
               <option value="file://$PROJECT_DIR$/device-srv/basic/config/config.go" />
+              <option value="file://$PROJECT_DIR$/../pubilc_pkg/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RabbitMQ">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/../pubilc_pkg/config/config.go" />
+              <option value="file://$PROJECT_DIR$/../pubilc_pkg/inits/rabbitmq.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RabbitMq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/device-srv/basic/config/config.go" />
             </set>
           </value>
         </entry>
@@ -171,6 +239,7 @@
           <value>
             <set>
               <option value="file://$PROJECT_DIR$/device-srv/basic/config/config.go" />
+              <option value="file://$PROJECT_DIR$/../pubilc_pkg/config/config.go" />
             </set>
           </value>
         </entry>
@@ -185,6 +254,7 @@
           <value>
             <set>
               <option value="file://$PROJECT_DIR$/device-srv/handler/service/service.go" />
+              <option value="file://$PROJECT_DIR$/user-srv/handler/service/service.go" />
             </set>
           </value>
         </entry>
@@ -214,6 +284,7 @@
           <value>
             <set>
               <option value="file://$PROJECT_DIR$/device-srv/handler/model/user.go" />
+              <option value="file://$PROJECT_DIR$/user-srv/handler/model/user.go" />
             </set>
           </value>
         </entry>
@@ -254,28 +325,28 @@
         <entry key="file://$PROJECT_DIR$/api-gateway/basic/cmd/main.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755144241877" />
+              <option name="lastModified" value="1755227113537" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/api-gateway/basic/config/config.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755177544796" />
+              <option name="lastModified" value="1755227113537" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/api-gateway/basic/config/global.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755179323782" />
+              <option name="lastModified" value="1755227113538" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/api-gateway/basic/device-proto/device.pb.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755174070492" />
+              <option name="lastModified" value="1755227113538" />
               <option name="schema">
                 <list>
                   <option value="BrandAddReq" />
@@ -296,7 +367,7 @@
         <entry key="file://$PROJECT_DIR$/api-gateway/basic/device-proto/device_grpc.pb.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755174070492" />
+              <option name="lastModified" value="1755227113539" />
               <option name="schema">
                 <list>
                   <option value="deviceSrvClient" />
@@ -309,28 +380,28 @@
         <entry key="file://$PROJECT_DIR$/api-gateway/basic/init/grpc.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755178193712" />
+              <option name="lastModified" value="1755227113540" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/api-gateway/basic/init/init.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755144241878" />
+              <option name="lastModified" value="1755227113540" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/api-gateway/handler/api/brand.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755177697303" />
+              <option name="lastModified" value="1755227113541" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/api-gateway/handler/request/brand.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755177430240" />
+              <option name="lastModified" value="1755227113541" />
               <option name="schema">
                 <list>
                   <option value="GetBrandListReq" />
@@ -345,21 +416,21 @@
         <entry key="file://$PROJECT_DIR$/api-gateway/router/brand.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755177275275" />
+              <option name="lastModified" value="1755227113542" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/api-gateway/router/router.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755177266759" />
+              <option name="lastModified" value="1755227113542" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/api-gateway/untils/consul.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755144241881" />
+              <option name="lastModified" value="1755227113542" />
               <option name="schema">
                 <list>
                   <option value="ConsulClient" />
@@ -372,24 +443,26 @@
         <entry key="file://$PROJECT_DIR$/api-gateway/untils/nacos.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755144241881" />
+              <option name="lastModified" value="1755227113543" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/device-srv/basic/cmd/main.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755178138462" />
+              <option name="lastModified" value="1755227113544" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/device-srv/basic/config/config.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755144993019" />
+              <option name="lastModified" value="1755227113544" />
               <option name="schema">
                 <list>
                   <option value="AppConfig" />
+                  <option value="RabbitMq" />
+                  <option value="Elasticsearch" />
                   <option value="MongoDb" />
                   <option value="Mysql" />
                   <option value="Redis" />
@@ -401,49 +474,49 @@
         <entry key="file://$PROJECT_DIR$/device-srv/basic/config/global.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755154772037" />
+              <option name="lastModified" value="1755227113545" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/device-srv/basic/init/config.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755144241883" />
+              <option name="lastModified" value="1755227113545" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/device-srv/basic/init/init.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755154613700" />
+              <option name="lastModified" value="1755227113546" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/device-srv/basic/init/mongo_db.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755155467764" />
+              <option name="lastModified" value="1755227113546" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/device-srv/basic/init/mysql.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755165240145" />
+              <option name="lastModified" value="1755227113546" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/device-srv/basic/init/redis.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755144241884" />
+              <option name="lastModified" value="1755227113546" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/device-srv/basic/proto/device.pb.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755174070492" />
+              <option name="lastModified" value="1755227113547" />
               <option name="schema">
                 <list>
                   <option value="BrandAddReq" />
@@ -464,7 +537,7 @@
         <entry key="file://$PROJECT_DIR$/device-srv/basic/proto/device_grpc.pb.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755174070492" />
+              <option name="lastModified" value="1755227113548" />
               <option name="schema">
                 <list>
                   <option value="deviceSrvClient" />
@@ -477,7 +550,7 @@
         <entry key="file://$PROJECT_DIR$/device-srv/handler/model/brand.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755177051068" />
+              <option name="lastModified" value="1755227113549" />
               <option name="schema">
                 <list>
                   <option value="Brand" />
@@ -489,7 +562,7 @@
         <entry key="file://$PROJECT_DIR$/device-srv/handler/model/device.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755160826069" />
+              <option name="lastModified" value="1755227113549" />
               <option name="schema">
                 <list>
                   <option value="Device" />
@@ -501,7 +574,7 @@
         <entry key="file://$PROJECT_DIR$/device-srv/handler/model/device_type.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755160643913" />
+              <option name="lastModified" value="1755227113550" />
               <option name="schema">
                 <list>
                   <option value="DeviceType" />
@@ -513,7 +586,7 @@
         <entry key="file://$PROJECT_DIR$/device-srv/handler/model/health_data.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755161315716" />
+              <option name="lastModified" value="1755227113550" />
               <option name="schema">
                 <list>
                   <option value="HealthData" />
@@ -525,7 +598,7 @@
         <entry key="file://$PROJECT_DIR$/device-srv/handler/model/health_data_type.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755163977195" />
+              <option name="lastModified" value="1755227113550" />
               <option name="schema">
                 <list>
                   <option value="HealthDataType" />
@@ -537,7 +610,7 @@
         <entry key="file://$PROJECT_DIR$/device-srv/handler/model/health_report.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755165151809" />
+              <option name="lastModified" value="1755227113550" />
               <option name="schema">
                 <list>
                   <option value="HealthReport" />
@@ -549,7 +622,7 @@
         <entry key="file://$PROJECT_DIR$/device-srv/handler/model/role.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755160842582" />
+              <option name="lastModified" value="1755227113551" />
               <option name="schema">
                 <list>
                   <option value="Role" />
@@ -561,7 +634,7 @@
         <entry key="file://$PROJECT_DIR$/device-srv/handler/model/system_log.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755165546521" />
+              <option name="lastModified" value="1755227113551" />
               <option name="schema">
                 <list>
                   <option value="SystemLog" />
@@ -573,7 +646,7 @@
         <entry key="file://$PROJECT_DIR$/device-srv/handler/model/user.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755160855262" />
+              <option name="lastModified" value="1755227113551" />
               <option name="schema">
                 <list>
                   <option value="User" />
@@ -585,7 +658,7 @@
         <entry key="file://$PROJECT_DIR$/device-srv/handler/model/user_device.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755160855281" />
+              <option name="lastModified" value="1755227113552" />
               <option name="schema">
                 <list>
                   <option value="UserDevice" />
@@ -597,7 +670,7 @@
         <entry key="file://$PROJECT_DIR$/device-srv/handler/model/user_role.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755160870900" />
+              <option name="lastModified" value="1755227113552" />
               <option name="schema">
                 <list>
                   <option value="UserRole" />
@@ -609,7 +682,7 @@
         <entry key="file://$PROJECT_DIR$/device-srv/handler/service/service.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755176946496" />
+              <option name="lastModified" value="1755227113552" />
               <option name="schema">
                 <list>
                   <option value="Server" />
@@ -621,7 +694,248 @@
         <entry key="file://$PROJECT_DIR$/device-srv/untils/nacos.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755145170703" />
+              <option name="lastModified" value="1755227113552" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/user-srv/basic/cmd/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755250034138" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/user-srv/basic/init/config.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755247909682" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/user-srv/basic/init/init.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755247909468" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/user-srv/basic/init/mongo_db.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755247912589" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/user-srv/basic/init/mysql.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755247909690" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/user-srv/basic/init/redis.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755247909686" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/user-srv/handler/model/brand.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755247909673" />
+              <option name="schema">
+                <list>
+                  <option value="Brand" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/user-srv/handler/model/user.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755258407968" />
+              <option name="schema">
+                <list>
+                  <option value="User" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/user-srv/handler/service/service.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755259640079" />
+              <option name="schema">
+                <list>
+                  <option value="Server" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/user-srv/untils/nacos.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755247912581" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../pubilc_pkg/config/config.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755244646856" />
+              <option name="schema">
+                <list>
+                  <option value="AppConfig" />
+                  <option value="Mysql" />
+                  <option value="Redis" />
+                  <option value="Elasticsearch" />
+                  <option value="MongoDB" />
+                  <option value="RabbitMQ" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../pubilc_pkg/config/const.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755245176189" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../pubilc_pkg/inits/config.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755251006043" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../pubilc_pkg/inits/es.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755251005913" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../pubilc_pkg/inits/mongodb.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755251005944" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../pubilc_pkg/inits/mysql.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755251006002" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../pubilc_pkg/inits/rabbitmq.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755245154440" />
+              <option name="schema">
+                <list>
+                  <option value="RabbitMQ" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../pubilc_pkg/inits/redis.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755251006024" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../pubilc_pkg/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755245077354" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../pubilc_pkg/middleware/jwt.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755243162611" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../pubilc_pkg/pkg/MD5.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755240965676" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../pubilc_pkg/pkg/alipay.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755228564028" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../pubilc_pkg/pkg/aliyun.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755227867479" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../pubilc_pkg/pkg/md5.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755241023026" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../pubilc_pkg/pkg/oss.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755240644530" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../pubilc_pkg/untils/es.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755251005811" />
+              <option name="schema">
+                <list>
+                  <option value="ES" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../pubilc_pkg/untils/pay.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755251005798" />
+              <option name="schema">
+                <list>
+                  <option value="ALiPay" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../pubilc_pkg/untils/sms.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755251005806" />
+              <option name="schema">
+                <list>
+                  <option value="ALiYun" />
+                </list>
+              </option>
             </ScannedPath>
           </value>
         </entry>
@@ -629,6 +943,8 @@
     </option>
     <option name="tableStructMapping">
       <map>
+        <entry key="a_li_pay" value="ALiPay" />
+        <entry key="a_li_yun" value="ALiYun" />
         <entry key="add_brand_req" value="AddBrandReq" />
         <entry key="app_config" value="AppConfig" />
         <entry key="brand" value="Brand" />
@@ -644,14 +960,19 @@
         <entry key="device" value="Device" />
         <entry key="device_srv_client" value="deviceSrvClient" />
         <entry key="device_type" value="DeviceType" />
+        <entry key="elasticsearch" value="Elasticsearch" />
+        <entry key="es" value="ES" />
         <entry key="get_brand_list" value="GetBrandList" />
         <entry key="get_brand_list_req" value="GetBrandListReq" />
         <entry key="get_brand_list_resp" value="GetBrandListResp" />
         <entry key="health_data" value="HealthData" />
         <entry key="health_data_type" value="HealthDataType" />
         <entry key="health_report" value="HealthReport" />
+        <entry key="jwt" value="JWT" />
+        <entry key="jwt_claims" value="JWTClaims" />
         <entry key="mongo_db" value="MongoDb" />
         <entry key="mysql" value="Mysql" />
+        <entry key="rabbit_mq" value="RabbitMq" />
         <entry key="redis" value="Redis" />
         <entry key="role" value="Role" />
         <entry key="server" value="Server" />

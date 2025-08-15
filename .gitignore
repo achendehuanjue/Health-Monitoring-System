@@ -1,2 +1,9 @@
+<<<<<<< HEAD
+*.exe
+go.mod
+go.sum
+.idea
+=======
 go.sum
 go.mod
+>>>>>>> master
