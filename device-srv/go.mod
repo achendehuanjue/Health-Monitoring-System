@@ -5,9 +5,11 @@ go 1.23.0
 toolchain go1.23.10
 
 require (
+	github.com/elastic/go-elasticsearch/v7 v7.17.10
 	github.com/go-redis/redis/v8 v8.11.5
 	github.com/nacos-group/nacos-sdk-go v1.1.5
 	github.com/spf13/viper v1.20.1
+	github.com/streadway/amqp v1.1.0
 	go.mongodb.org/mongo-driver v1.17.4
 	google.golang.org/grpc v1.73.0
 	google.golang.org/protobuf v1.36.6

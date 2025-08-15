@@ -1,4 +1,4 @@
-package init
+package viper
 
 import (
 	"demo-srv/basic/config"
@@ -7,7 +7,7 @@ import (
 )
 
 func InitViper() {
-	viper.SetConfigFile("../../dev.yaml")
+	viper.SetConfigFile("../dev.yaml")
 	if err := viper.ReadInConfig(); err != nil {
 		panic("动态配置读取失败:" + err.Error())
 	}
