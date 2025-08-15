@@ -7,6 +7,7 @@ import (
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"log"
+	"time"
 )
 
 func InitMysql() {
@@ -41,4 +42,16 @@ func InitMysql() {
 		panic("mysql migrate failed:" + err.Error())
 	}
 	log.Println("mysql migrate success")
+
+	sqlDB, err := config.DB.DB()
+
+	// SetMaxIdleConns 设置空闲连接池中连接的最大数量。
+	sqlDB.SetMaxIdleConns(10)
+
+	// SetMaxOpenConns 设置打开数据库连接的最大数量。
+	sqlDB.SetMaxOpenConns(100)
+
+	// SetConnMaxLifetime 设置了可以重新使用连接的最大时间。
+	sqlDB.SetConnMaxLifetime(time.Hour)
+
 }

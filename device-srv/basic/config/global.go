@@ -2,12 +2,14 @@ package config
 
 import (
 	"context"
+	"github.com/elastic/go-elasticsearch/v7"
 	"github.com/go-redis/redis/v8"
 	"go.mongodb.org/mongo-driver/mongo"
 	"gorm.io/gorm"
 )
 
 var (
+	Es      *elasticsearch.Client
 	AppConf AppConfig
 	DB      *gorm.DB
 	Ctx     = context.Background()
