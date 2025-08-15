@@ -15,7 +15,9 @@ func MqttClient(str string) {
 		panic(fmt.Sprintf("连接失败: %v", token.Error()))
 	}
 
-	token := client.Subscribe("health/+/"+str, 1, nil)
+	// 使用带过滤的处理器
+	handler := NewTemperatureHandler() // 或其他对应的处理器
+	token := client.Subscribe("health/+/"+str, 1, handler)
 	token.Wait()
 	if token.Error() != nil {
 		fmt.Printf("订阅主题失败: %v\n", token.Error())
@@ -72,4 +74,18 @@ var BloodOxygenMessageHandler mqtt.MessageHandler = func(client mqtt.Client, msg
 	rawData.Unit = "%"
 	rawData.Timestamp = time.Now().Unix()
 	fmt.Println(rawData)
+}
+
+// 使用过滤器的体温消息处理
+func NewTemperatureHandler() mqtt.MessageHandler {
+	// 示例：只接收36.0-42.0℃的体温数据
+	filter := &RangeFilter{Min: 36.0, Max: 42.0}
+	return FilterMessageHandler(filter, TemperatureMessageHandler)
+}
+
+// 使用过滤器的血糖消息处理
+func NewBloodGlucoseHandler() mqtt.MessageHandler {
+	// 示例：只接收70-180 mg/dL的血糖数据
+	filter := &RangeFilter{Min: 70, Max: 180}
+	return FilterMessageHandler(filter, BloodGlucoseMessageHandler)
 }
