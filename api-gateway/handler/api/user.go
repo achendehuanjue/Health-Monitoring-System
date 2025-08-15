@@ -12,6 +12,15 @@ import (
 )
 
 // SendSms
+// @Summary      短信发送
+// @Description  发送短信验证码
+// @Tags         用户模块
+// @Accept       json
+// @Produce      json
+// @Param        data  body      request.SendSmsReq  true  "用户参数"
+// @Success      200  {object}  resp.Response
+// @Failure      400   {object}  resp.Responses
+// @Router       /user/sendSms [post]
 func SendSms(c *gin.Context) {
 	//接收参数
 	var req request.SendSmsReq
@@ -34,6 +43,15 @@ func SendSms(c *gin.Context) {
 }
 
 // Register
+// @Summary      用户注册
+// @Description  用户注册
+// @Tags         用户模块
+// @Accept       json
+// @Produce      json
+// @Param        data  body      request.RegisterReq  true  "用户参数"
+// @Success      200  {object}  resp.Response
+// @Failure      400   {object}  resp.Responses
+// @Router       /user/register [post]
 func Register(c *gin.Context) {
 	//接收参数
 	var req request.RegisterReq
@@ -58,6 +76,15 @@ func Register(c *gin.Context) {
 }
 
 // Login
+// @Summary      用户登录
+// @Description  用户登录
+// @Tags         用户模块
+// @Accept       json
+// @Produce      json
+// @Param        data  body      request.LoginReq  true  "用户参数"
+// @Success      200  {object}  resp.Response
+// @Failure      400   {object}  resp.Responses
+// @Router       /user/login [post]
 func Login(c *gin.Context) {
 	//接收参数
 	var req request.LoginReq
@@ -87,6 +114,15 @@ func Login(c *gin.Context) {
 }
 
 // PerfectUser
+// @Summary      完善用户信息
+// @Description  完善用户信息
+// @Tags         用户模块
+// @Accept       json
+// @Produce      json
+// @Param        data  body      request.PerfectUserReq  true  "用户参数"
+// @Success      200  {object}  resp.Response
+// @Failure      400   {object}  resp.Responses
+// @Router       /user/perfect [post]
 func PerfectUser(c *gin.Context) {
 	//接收参数
 	var req request.PerfectUserReq
@@ -111,6 +147,15 @@ func PerfectUser(c *gin.Context) {
 }
 
 // GetUserList
+// @Summary      用户列表展示
+// @Description  用户列表展示
+// @Tags         用户模块
+// @Accept       json
+// @Produce      json
+// @Param        data  body      request.GetUserListReq  true  "用户参数"
+// @Success      200  {object}  resp.Response
+// @Failure      400   {object}  resp.Responses
+// @Router       /user/list [get]
 func GetUserList(c *gin.Context) {
 	//接收参数
 	var req request.GetUserListReq
@@ -134,6 +179,15 @@ func GetUserList(c *gin.Context) {
 }
 
 // GetUserDetail
+// @Summary      用户详情
+// @Description  展示用户的数据
+// @Tags         用户模块
+// @Accept       json
+// @Produce      json
+// @Param        data  body      request.GetUserDetailReq  true  "用户参数"
+// @Success      200  {object}  resp.Response
+// @Failure      400   {object}  resp.Responses
+// @Router       /user/detail [get]
 func GetUserDetail(c *gin.Context) {
 	//接收参数
 	var req request.GetUserDetailReq
@@ -156,6 +210,15 @@ func GetUserDetail(c *gin.Context) {
 }
 
 // DeleteUser
+// @Summary      删除用户
+// @Description  删除用户
+// @Tags         用户模块
+// @Accept       json
+// @Produce      json
+// @Param        data  body      request.DeleteUserReq  true  "用户参数"
+// @Success      200  {object}  resp.Response
+// @Failure      400   {object}  resp.Responses
+// @Router       /user/delete [post]
 func DeleteUser(c *gin.Context) {
 	//接收参数
 	var req request.DeleteUserReq

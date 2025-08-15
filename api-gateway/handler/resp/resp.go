@@ -11,6 +11,11 @@ type Response struct {
 	Msg  string      `json:"msg" example:"操作成功"`
 	Data interface{} `json:"data"`
 }
+type Responses struct {
+	Code int         `json:"code" example:"400"`
+	Msg  string      `json:"msg" example:"操作失败"`
+	Data interface{} `json:"data"`
+}
 
 // 请求参数报错
 func RespDataErr(c *gin.Context, err error) {

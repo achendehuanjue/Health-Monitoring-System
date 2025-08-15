@@ -7,7 +7,7 @@ import (
 
 func UserRouter(v1 *gin.RouterGroup) {
 	//用户模块
-	user := v1.Group("/v1")
+	user := v1.Group("/user")
 	{
 		user.POST("/sendSms", api.SendSms)     //SendSms
 		user.POST("/register", api.Register)   //Register

@@ -1,0 +1,423 @@
+basePath: /v1
+definitions:
+  request.AddBrandReq:
+    properties:
+      desc:
+        type: string
+      logo:
+        type: string
+      name:
+        type: string
+    required:
+    - desc
+    - logo
+    - name
+    type: object
+  request.DelBrandReq:
+    properties:
+      id:
+        type: integer
+    required:
+    - id
+    type: object
+  request.DeleteUserReq:
+    properties:
+      user_id:
+        type: integer
+    required:
+    - user_id
+    type: object
+  request.GetBrandListReq:
+    properties:
+      name:
+        type: string
+      page:
+        type: integer
+      page_size:
+        type: integer
+    type: object
+  request.GetUserDetailReq:
+    properties:
+      user_id:
+        type: integer
+    required:
+    - user_id
+    type: object
+  request.GetUserListReq:
+    properties:
+      page:
+        type: integer
+      page_size:
+        type: integer
+    type: object
+  request.LoginReq:
+    properties:
+      mobile:
+        type: string
+      password:
+        type: string
+    required:
+    - mobile
+    - password
+    type: object
+  request.PerfectUserReq:
+    properties:
+      email:
+        type: string
+      nick_name:
+        type: string
+    type: object
+  request.RegisterReq:
+    properties:
+      mobile:
+        type: string
+      password:
+        type: string
+      sms_code:
+        type: string
+    required:
+    - mobile
+    - password
+    - sms_code
+    type: object
+  request.SendSmsReq:
+    properties:
+      mobile:
+        type: string
+    required:
+    - mobile
+    type: object
+  request.UpdateBrandReq:
+    properties:
+      desc:
+        type: string
+      id:
+        type: integer
+      logo:
+        type: string
+      name:
+        type: string
+    required:
+    - id
+    type: object
+  resp.Response:
+    properties:
+      code:
+        example: 200
+        type: integer
+      data: {}
+      msg:
+        example: 操作成功
+        type: string
+    type: object
+  resp.Responses:
+    properties:
+      code:
+        example: 400
+        type: integer
+      data: {}
+      msg:
+        example: 操作失败
+        type: string
+    type: object
+host: 127.0.0.1:8080
+info:
+  contact:
+    email: support@swagger.io
+    name: API Support
+    url: http://www.swagger.io/support
+  description: This is an API Gateway service
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  termsOfService: http://swagger.io/terms/
+  title: 健康检测系统
+  version: "1.0"
+paths:
+  /brand/add:
+    post:
+      consumes:
+      - application/json
+      description: 发布一个新品牌
+      parameters:
+      - description: 品牌参数
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/request.AddBrandReq'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/resp.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/resp.Response'
+      summary: 品牌发布
+      tags:
+      - 品牌模块
+  /brand/del:
+    post:
+      consumes:
+      - application/json
+      description: 删除一个品牌
+      parameters:
+      - description: 品牌参数
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/request.DelBrandReq'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/resp.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/resp.Response'
+      summary: 品牌删除
+      tags:
+      - 品牌模块
+  /brand/list:
+    get:
+      consumes:
+      - application/json
+      description: 展示品牌的数据
+      parameters:
+      - description: 品牌参数
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/request.GetBrandListReq'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/resp.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/resp.Response'
+      summary: 品牌列表获取
+      tags:
+      - 品牌模块
+  /brand/update:
+    post:
+      consumes:
+      - application/json
+      description: 修改品牌数据
+      parameters:
+      - description: 品牌参数
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/request.UpdateBrandReq'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/resp.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/resp.Response'
+      summary: 品牌修改
+      tags:
+      - 品牌模块
+  /user/delete:
+    post:
+      consumes:
+      - application/json
+      description: 删除用户
+      parameters:
+      - description: 用户参数
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/request.DeleteUserReq'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/resp.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/resp.Responses'
+      summary: 删除用户
+      tags:
+      - 用户模块
+  /user/detail:
+    get:
+      consumes:
+      - application/json
+      description: 展示用户的数据
+      parameters:
+      - description: 用户参数
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/request.GetUserDetailReq'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/resp.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/resp.Responses'
+      summary: 用户详情
+      tags:
+      - 用户模块
+  /user/list:
+    get:
+      consumes:
+      - application/json
+      description: 用户列表展示
+      parameters:
+      - description: 用户参数
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/request.GetUserListReq'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/resp.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/resp.Responses'
+      summary: 用户列表展示
+      tags:
+      - 用户模块
+  /user/login:
+    post:
+      consumes:
+      - application/json
+      description: 用户登录
+      parameters:
+      - description: 用户参数
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/request.LoginReq'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/resp.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/resp.Responses'
+      summary: 用户登录
+      tags:
+      - 用户模块
+  /user/perfect:
+    post:
+      consumes:
+      - application/json
+      description: 完善用户信息
+      parameters:
+      - description: 用户参数
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/request.PerfectUserReq'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/resp.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/resp.Responses'
+      summary: 完善用户信息
+      tags:
+      - 用户模块
+  /user/register:
+    post:
+      consumes:
+      - application/json
+      description: 用户注册
+      parameters:
+      - description: 用户参数
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/request.RegisterReq'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/resp.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/resp.Responses'
+      summary: 用户注册
+      tags:
+      - 用户模块
+  /user/sendSms:
+    post:
+      consumes:
+      - application/json
+      description: 发送短信验证码
+      parameters:
+      - description: 用户参数
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/request.SendSmsReq'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/resp.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/resp.Responses'
+      summary: 短信发送
+      tags:
+      - 用户模块
+swagger: "2.0"
