@@ -1,9 +1,9 @@
 package model
 
 import (
-	"demo-srv/basic/config"
+	"device-srv/basic/config"
+	"device-srv/untils"
 	"gorm.io/gorm"
-	"log"
 )
 
 type Brand struct { //品牌
@@ -34,25 +34,6 @@ func (b *Brand) UpdateBrand() error {
 }
 
 func (b *Brand) GetBrandList(page, pageSize int) (BrandList []*Brand, err error) {
-	err = config.DB.Where("name like ?", "%"+b.Name+"%").Scopes(Paginate(page, pageSize)).Find(&BrandList).Error
+	err = config.DB.Where("name like ?", "%"+b.Name+"%").Scopes(untils.Paginate(page, pageSize)).Find(&BrandList).Error
 	return
-}
-
-func Paginate(page, pageSize int) func(db *gorm.DB) *gorm.DB {
-	return func(db *gorm.DB) *gorm.DB {
-		if page <= 0 {
-			page = 1
-		}
-
-		switch {
-		case pageSize > 100:
-			pageSize = 100
-		case pageSize <= 0:
-			pageSize = 10
-		}
-
-		offset := (page - 1) * pageSize
-		log.Println("offset:", offset)
-		return db.Offset(offset).Limit(pageSize)
-	}
 }

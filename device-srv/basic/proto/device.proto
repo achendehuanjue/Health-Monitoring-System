@@ -6,10 +6,30 @@ option go_package = "/";
 
 
 service DeviceSrv {
+  rpc DeviceList(DeviceListReq) returns (DeviceListResp);
   rpc BrandAdd(BrandAddReq) returns (BrandAddResp);
   rpc BrandDel(BrandDelReq) returns (BrandDelResp);
   rpc BrandUpdate(BrandUpdateReq) returns (BrandUpdateResp);
   rpc GetBrandList(GetBrandListReq) returns (GetBrandListResp);
+}
+//添加分类
+message DeviceListReq {
+  int64 userId = 1;
+  int64 page = 2;
+  int64 pageSize = 3;
+}
+message DeviceListResp {
+  repeated DeviceList list = 1;
+  int64 page = 2;
+  int64 pageSize = 3;
+}
+message DeviceList{
+  int64 id = 1;
+  string nick_name = 2;
+  string device_name = 3;
+  string mobile = 4;
+  string email = 5;
+
 }
 //添加分类
 message BrandAddReq {

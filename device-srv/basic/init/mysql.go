@@ -1,8 +1,8 @@
 package init
 
 import (
-	"demo-srv/basic/config"
-	"demo-srv/handler/model"
+	"device-srv/basic/config"
+	"device-srv/handler/model"
 	"fmt"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"

@@ -1,7 +1,7 @@
 package untils
 
 import (
-	"demo-srv/basic/config"
+	"device-srv/basic/config"
 
 	"encoding/json"
 	"fmt"

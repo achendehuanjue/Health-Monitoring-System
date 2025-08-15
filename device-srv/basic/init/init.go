@@ -1,8 +1,6 @@
 package init
 
-import (
-	"demo-srv/untils"
-)
+import "device-srv/untils"
 
 func init() {
 	untils.InitNacos()

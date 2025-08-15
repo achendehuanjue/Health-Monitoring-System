@@ -2,7 +2,7 @@ package init
 
 import (
 	"context"
-	"demo-srv/basic/config"
+	"device-srv/basic/config"
 	"fmt"
 	"log"
 
