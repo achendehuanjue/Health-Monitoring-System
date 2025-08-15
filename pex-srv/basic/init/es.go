@@ -1,14 +1,14 @@
 package init
 
 import (
-	"demo-srv/basic/config"
 	"fmt"
 	"github.com/elastic/go-elasticsearch/v7"
 	"log"
+	"pex-srv/basic/config"
 )
 
 func InitEs() {
-	addr := fmt.Sprintf("http://%s:%d", config.AppConf.Elasticsearch.Host, config.AppConf.Elasticsearch.Port)
+	addr := fmt.Sprintf("http://%s:%s", config.AppConf.Elasticsearch.Host, config.AppConf.Elasticsearch.Port)
 	cfg := elasticsearch.Config{
 		Addresses: []string{
 			addr,

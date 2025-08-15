@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package proto;
+
+option go_package = "/";
+
+
+service EMQXSrv {
+  rpc TemperatureEMQX(TemperatureEMQXReq) returns (TemperatureEMQXResp);
+  rpc BloodGlucoseEMQX(BloodGlucoseEMQXReq) returns (BloodGlucoseEMQXResp);
+  rpc BloodPressureEMQX(BloodPressureEMQXReq) returns (BloodPressureEMQXResp);
+  rpc BloodOxygenEMQX(BloodOxygenEMQXReq) returns (BloodOxygenEMQXResp);
+}
+//体温EMQX服务
+message TemperatureEMQXReq {}
+message TemperatureEMQXResp {}
+
+//血糖EMQX服务
+message BloodGlucoseEMQXReq {}
+message BloodGlucoseEMQXResp {}
+
+//血压EMQX服务
+message BloodPressureEMQXReq {}
+message BloodPressureEMQXResp {}
+
+
+//血氧EMQX服务
+message BloodOxygenEMQXReq {}
+message BloodOxygenEMQXResp {}
+
