@@ -28,7 +28,59 @@
           <value>
             <set>
               <option value="file://$PROJECT_DIR$/device-srv/basic/config/config.go" />
+<<<<<<< HEAD
+              <option value="file://$PROJECT_DIR$/pex-srv/basic/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="BloodGlucoseEMQXReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/basic/pex-proto/pex.pb.go" />
+              <option value="file://$PROJECT_DIR$/pex-srv/basic/proto/pex.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="BloodGlucoseEMQXResp">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/basic/pex-proto/pex.pb.go" />
+              <option value="file://$PROJECT_DIR$/pex-srv/basic/proto/pex.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="BloodOxygenEMQXReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/basic/pex-proto/pex.pb.go" />
+              <option value="file://$PROJECT_DIR$/pex-srv/basic/proto/pex.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="BloodOxygenEMQXResp">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/basic/pex-proto/pex.pb.go" />
+              <option value="file://$PROJECT_DIR$/pex-srv/basic/proto/pex.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="BloodPressureEMQXReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/basic/pex-proto/pex.pb.go" />
+              <option value="file://$PROJECT_DIR$/pex-srv/basic/proto/pex.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="BloodPressureEMQXResp">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/basic/pex-proto/pex.pb.go" />
+              <option value="file://$PROJECT_DIR$/pex-srv/basic/proto/pex.pb.go" />
+=======
               <option value="file://$PROJECT_DIR$/../pubilc_pkg/config/config.go" />
+>>>>>>> master
             </set>
           </value>
         </entry>
@@ -123,6 +175,12 @@
             </set>
           </value>
         </entry>
+<<<<<<< HEAD
+        <entry key="Elasticsearch">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/pex-srv/basic/config/config.go" />
+=======
         <entry key="ES">
           <value>
             <set>
@@ -135,6 +193,7 @@
             <set>
               <option value="file://$PROJECT_DIR$/device-srv/basic/config/config.go" />
               <option value="file://$PROJECT_DIR$/../pubilc_pkg/config/config.go" />
+>>>>>>> master
             </set>
           </value>
         </entry>
@@ -209,6 +268,7 @@
           <value>
             <set>
               <option value="file://$PROJECT_DIR$/device-srv/basic/config/config.go" />
+              <option value="file://$PROJECT_DIR$/pex-srv/basic/config/config.go" />
             </set>
           </value>
         </entry>
@@ -216,6 +276,9 @@
           <value>
             <set>
               <option value="file://$PROJECT_DIR$/device-srv/basic/config/config.go" />
+<<<<<<< HEAD
+              <option value="file://$PROJECT_DIR$/pex-srv/basic/config/config.go" />
+=======
               <option value="file://$PROJECT_DIR$/../pubilc_pkg/config/config.go" />
             </set>
           </value>
@@ -225,13 +288,18 @@
             <set>
               <option value="file://$PROJECT_DIR$/../pubilc_pkg/config/config.go" />
               <option value="file://$PROJECT_DIR$/../pubilc_pkg/inits/rabbitmq.go" />
+>>>>>>> master
             </set>
           </value>
         </entry>
         <entry key="RabbitMq">
           <value>
             <set>
+<<<<<<< HEAD
+              <option value="file://$PROJECT_DIR$/pex-srv/basic/config/config.go" />
+=======
               <option value="file://$PROJECT_DIR$/device-srv/basic/config/config.go" />
+>>>>>>> master
             </set>
           </value>
         </entry>
@@ -239,7 +307,11 @@
           <value>
             <set>
               <option value="file://$PROJECT_DIR$/device-srv/basic/config/config.go" />
+<<<<<<< HEAD
+              <option value="file://$PROJECT_DIR$/pex-srv/basic/config/config.go" />
+=======
               <option value="file://$PROJECT_DIR$/../pubilc_pkg/config/config.go" />
+>>>>>>> master
             </set>
           </value>
         </entry>
@@ -254,7 +326,11 @@
           <value>
             <set>
               <option value="file://$PROJECT_DIR$/device-srv/handler/service/service.go" />
+<<<<<<< HEAD
+              <option value="file://$PROJECT_DIR$/pex-srv/handler/service/service.go" />
+=======
               <option value="file://$PROJECT_DIR$/user-srv/handler/service/service.go" />
+>>>>>>> master
             </set>
           </value>
         </entry>
@@ -265,11 +341,35 @@
             </set>
           </value>
         </entry>
+        <entry key="TemperatureEMQXReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/basic/pex-proto/pex.pb.go" />
+              <option value="file://$PROJECT_DIR$/pex-srv/basic/proto/pex.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="TemperatureEMQXResp">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/basic/pex-proto/pex.pb.go" />
+              <option value="file://$PROJECT_DIR$/pex-srv/basic/proto/pex.pb.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="UnimplementedDeviceSrvServer">
           <value>
             <set>
               <option value="file://$PROJECT_DIR$/api-gateway/basic/device-proto/device_grpc.pb.go" />
               <option value="file://$PROJECT_DIR$/device-srv/basic/proto/device_grpc.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UnimplementedEMQXSrvServer">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/basic/pex-proto/pex_grpc.pb.go" />
+              <option value="file://$PROJECT_DIR$/pex-srv/basic/proto/pex_grpc.pb.go" />
             </set>
           </value>
         </entry>
@@ -310,11 +410,21 @@
             </set>
           </value>
         </entry>
+        <entry key="eMQXSrvClient">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/basic/pex-proto/pex_grpc.pb.go" />
+              <option value="file://$PROJECT_DIR$/pex-srv/basic/proto/pex_grpc.pb.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="x">
           <value>
             <set>
               <option value="file://$PROJECT_DIR$/api-gateway/basic/device-proto/device.pb.go" />
+              <option value="file://$PROJECT_DIR$/api-gateway/basic/pex-proto/pex.pb.go" />
               <option value="file://$PROJECT_DIR$/device-srv/basic/proto/device.pb.go" />
+              <option value="file://$PROJECT_DIR$/pex-srv/basic/proto/pex.pb.go" />
             </set>
           </value>
         </entry>
@@ -325,28 +435,44 @@
         <entry key="file://$PROJECT_DIR$/api-gateway/basic/cmd/main.go">
           <value>
             <ScannedPath>
+<<<<<<< HEAD
+              <option name="lastModified" value="1755223038844" />
+=======
               <option name="lastModified" value="1755227113537" />
+>>>>>>> master
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/api-gateway/basic/config/config.go">
           <value>
             <ScannedPath>
+<<<<<<< HEAD
+              <option name="lastModified" value="1755251238265" />
+=======
               <option name="lastModified" value="1755227113537" />
+>>>>>>> master
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/api-gateway/basic/config/global.go">
           <value>
             <ScannedPath>
+<<<<<<< HEAD
+              <option name="lastModified" value="1755223038845" />
+=======
               <option name="lastModified" value="1755227113538" />
+>>>>>>> master
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/api-gateway/basic/device-proto/device.pb.go">
           <value>
             <ScannedPath>
+<<<<<<< HEAD
+              <option name="lastModified" value="1755251190457" />
+=======
               <option name="lastModified" value="1755227113538" />
+>>>>>>> master
               <option name="schema">
                 <list>
                   <option value="BrandAddReq" />
@@ -367,7 +493,11 @@
         <entry key="file://$PROJECT_DIR$/api-gateway/basic/device-proto/device_grpc.pb.go">
           <value>
             <ScannedPath>
+<<<<<<< HEAD
+              <option name="lastModified" value="1755251190474" />
+=======
               <option name="lastModified" value="1755227113539" />
+>>>>>>> master
               <option name="schema">
                 <list>
                   <option value="deviceSrvClient" />
@@ -380,28 +510,91 @@
         <entry key="file://$PROJECT_DIR$/api-gateway/basic/init/grpc.go">
           <value>
             <ScannedPath>
+<<<<<<< HEAD
+              <option name="lastModified" value="1755223038848" />
+=======
               <option name="lastModified" value="1755227113540" />
+>>>>>>> master
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/api-gateway/basic/init/init.go">
           <value>
             <ScannedPath>
+<<<<<<< HEAD
+              <option name="lastModified" value="1755251317770" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/basic/init/pexGrpc.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755251388288" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/basic/pex-proto/pex.pb.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755251190345" />
+              <option name="schema">
+                <list>
+                  <option value="TemperatureEMQXReq" />
+                  <option value="TemperatureEMQXResp" />
+                  <option value="BloodGlucoseEMQXReq" />
+                  <option value="BloodGlucoseEMQXResp" />
+                  <option value="BloodPressureEMQXReq" />
+                  <option value="BloodPressureEMQXResp" />
+                  <option value="BloodOxygenEMQXReq" />
+                  <option value="BloodOxygenEMQXResp" />
+                  <option value="x" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/basic/pex-proto/pex_grpc.pb.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755251190373" />
+              <option name="schema">
+                <list>
+                  <option value="eMQXSrvClient" />
+                  <option value="UnimplementedEMQXSrvServer" />
+                </list>
+              </option>
+=======
               <option name="lastModified" value="1755227113540" />
+>>>>>>> master
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/api-gateway/handler/api/brand.go">
           <value>
             <ScannedPath>
+<<<<<<< HEAD
+              <option name="lastModified" value="1755223038850" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/handler/api/pex.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755251449075" />
+=======
               <option name="lastModified" value="1755227113541" />
+>>>>>>> master
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/api-gateway/handler/request/brand.go">
           <value>
             <ScannedPath>
+<<<<<<< HEAD
+              <option name="lastModified" value="1755223038850" />
+=======
               <option name="lastModified" value="1755227113541" />
+>>>>>>> master
               <option name="schema">
                 <list>
                   <option value="GetBrandListReq" />
@@ -413,24 +606,50 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/handler/resp/resp.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755223286739" />
+            </ScannedPath>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/api-gateway/router/brand.go">
           <value>
             <ScannedPath>
+<<<<<<< HEAD
+              <option name="lastModified" value="1755223038850" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/router/pex.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755251190568" />
+=======
               <option name="lastModified" value="1755227113542" />
+>>>>>>> master
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/api-gateway/router/router.go">
           <value>
             <ScannedPath>
+<<<<<<< HEAD
+              <option name="lastModified" value="1755250779210" />
+=======
               <option name="lastModified" value="1755227113542" />
+>>>>>>> master
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/api-gateway/untils/consul.go">
           <value>
             <ScannedPath>
+<<<<<<< HEAD
+              <option name="lastModified" value="1755223038851" />
+=======
               <option name="lastModified" value="1755227113542" />
+>>>>>>> master
               <option name="schema">
                 <list>
                   <option value="ConsulClient" />
@@ -443,21 +662,33 @@
         <entry key="file://$PROJECT_DIR$/api-gateway/untils/nacos.go">
           <value>
             <ScannedPath>
+<<<<<<< HEAD
+              <option name="lastModified" value="1755223038852" />
+=======
               <option name="lastModified" value="1755227113543" />
+>>>>>>> master
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/device-srv/basic/cmd/main.go">
           <value>
             <ScannedPath>
+<<<<<<< HEAD
+              <option name="lastModified" value="1755223038853" />
+=======
               <option name="lastModified" value="1755227113544" />
+>>>>>>> master
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/device-srv/basic/config/config.go">
           <value>
             <ScannedPath>
+<<<<<<< HEAD
+              <option name="lastModified" value="1755223038853" />
+=======
               <option name="lastModified" value="1755227113544" />
+>>>>>>> master
               <option name="schema">
                 <list>
                   <option value="AppConfig" />
@@ -474,49 +705,84 @@
         <entry key="file://$PROJECT_DIR$/device-srv/basic/config/global.go">
           <value>
             <ScannedPath>
+<<<<<<< HEAD
+              <option name="lastModified" value="1755223038854" />
+=======
               <option name="lastModified" value="1755227113545" />
+>>>>>>> master
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/device-srv/basic/init/config.go">
           <value>
             <ScannedPath>
+<<<<<<< HEAD
+              <option name="lastModified" value="1755223038855" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/device-srv/basic/init/es.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755250847111" />
+=======
               <option name="lastModified" value="1755227113545" />
+>>>>>>> master
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/device-srv/basic/init/init.go">
           <value>
             <ScannedPath>
+<<<<<<< HEAD
+              <option name="lastModified" value="1755223038855" />
+=======
               <option name="lastModified" value="1755227113546" />
+>>>>>>> master
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/device-srv/basic/init/mongo_db.go">
           <value>
             <ScannedPath>
+<<<<<<< HEAD
+              <option name="lastModified" value="1755223038855" />
+=======
               <option name="lastModified" value="1755227113546" />
+>>>>>>> master
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/device-srv/basic/init/mysql.go">
           <value>
             <ScannedPath>
+<<<<<<< HEAD
+              <option name="lastModified" value="1755223038856" />
+=======
               <option name="lastModified" value="1755227113546" />
+>>>>>>> master
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/device-srv/basic/init/redis.go">
           <value>
             <ScannedPath>
+<<<<<<< HEAD
+              <option name="lastModified" value="1755223038856" />
+=======
               <option name="lastModified" value="1755227113546" />
+>>>>>>> master
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/device-srv/basic/proto/device.pb.go">
           <value>
             <ScannedPath>
+<<<<<<< HEAD
+              <option name="lastModified" value="1755251190414" />
+=======
               <option name="lastModified" value="1755227113547" />
+>>>>>>> master
               <option name="schema">
                 <list>
                   <option value="BrandAddReq" />
@@ -537,7 +803,11 @@
         <entry key="file://$PROJECT_DIR$/device-srv/basic/proto/device_grpc.pb.go">
           <value>
             <ScannedPath>
+<<<<<<< HEAD
+              <option name="lastModified" value="1755251190358" />
+=======
               <option name="lastModified" value="1755227113548" />
+>>>>>>> master
               <option name="schema">
                 <list>
                   <option value="deviceSrvClient" />
@@ -550,7 +820,11 @@
         <entry key="file://$PROJECT_DIR$/device-srv/handler/model/brand.go">
           <value>
             <ScannedPath>
+<<<<<<< HEAD
+              <option name="lastModified" value="1755223038860" />
+=======
               <option name="lastModified" value="1755227113549" />
+>>>>>>> master
               <option name="schema">
                 <list>
                   <option value="Brand" />
@@ -562,7 +836,11 @@
         <entry key="file://$PROJECT_DIR$/device-srv/handler/model/device.go">
           <value>
             <ScannedPath>
+<<<<<<< HEAD
+              <option name="lastModified" value="1755223038860" />
+=======
               <option name="lastModified" value="1755227113549" />
+>>>>>>> master
               <option name="schema">
                 <list>
                   <option value="Device" />
@@ -574,7 +852,11 @@
         <entry key="file://$PROJECT_DIR$/device-srv/handler/model/device_type.go">
           <value>
             <ScannedPath>
+<<<<<<< HEAD
+              <option name="lastModified" value="1755223038861" />
+=======
               <option name="lastModified" value="1755227113550" />
+>>>>>>> master
               <option name="schema">
                 <list>
                   <option value="DeviceType" />
@@ -586,7 +868,11 @@
         <entry key="file://$PROJECT_DIR$/device-srv/handler/model/health_data.go">
           <value>
             <ScannedPath>
+<<<<<<< HEAD
+              <option name="lastModified" value="1755223038861" />
+=======
               <option name="lastModified" value="1755227113550" />
+>>>>>>> master
               <option name="schema">
                 <list>
                   <option value="HealthData" />
@@ -598,7 +884,11 @@
         <entry key="file://$PROJECT_DIR$/device-srv/handler/model/health_data_type.go">
           <value>
             <ScannedPath>
+<<<<<<< HEAD
+              <option name="lastModified" value="1755223038862" />
+=======
               <option name="lastModified" value="1755227113550" />
+>>>>>>> master
               <option name="schema">
                 <list>
                   <option value="HealthDataType" />
@@ -610,7 +900,11 @@
         <entry key="file://$PROJECT_DIR$/device-srv/handler/model/health_report.go">
           <value>
             <ScannedPath>
+<<<<<<< HEAD
+              <option name="lastModified" value="1755223038862" />
+=======
               <option name="lastModified" value="1755227113550" />
+>>>>>>> master
               <option name="schema">
                 <list>
                   <option value="HealthReport" />
@@ -622,7 +916,11 @@
         <entry key="file://$PROJECT_DIR$/device-srv/handler/model/role.go">
           <value>
             <ScannedPath>
+<<<<<<< HEAD
+              <option name="lastModified" value="1755223038863" />
+=======
               <option name="lastModified" value="1755227113551" />
+>>>>>>> master
               <option name="schema">
                 <list>
                   <option value="Role" />
@@ -634,7 +932,11 @@
         <entry key="file://$PROJECT_DIR$/device-srv/handler/model/system_log.go">
           <value>
             <ScannedPath>
+<<<<<<< HEAD
+              <option name="lastModified" value="1755223038863" />
+=======
               <option name="lastModified" value="1755227113551" />
+>>>>>>> master
               <option name="schema">
                 <list>
                   <option value="SystemLog" />
@@ -646,7 +948,11 @@
         <entry key="file://$PROJECT_DIR$/device-srv/handler/model/user.go">
           <value>
             <ScannedPath>
+<<<<<<< HEAD
+              <option name="lastModified" value="1755223038863" />
+=======
               <option name="lastModified" value="1755227113551" />
+>>>>>>> master
               <option name="schema">
                 <list>
                   <option value="User" />
@@ -658,7 +964,11 @@
         <entry key="file://$PROJECT_DIR$/device-srv/handler/model/user_device.go">
           <value>
             <ScannedPath>
+<<<<<<< HEAD
+              <option name="lastModified" value="1755223038864" />
+=======
               <option name="lastModified" value="1755227113552" />
+>>>>>>> master
               <option name="schema">
                 <list>
                   <option value="UserDevice" />
@@ -670,7 +980,11 @@
         <entry key="file://$PROJECT_DIR$/device-srv/handler/model/user_role.go">
           <value>
             <ScannedPath>
+<<<<<<< HEAD
+              <option name="lastModified" value="1755223038865" />
+=======
               <option name="lastModified" value="1755227113552" />
+>>>>>>> master
               <option name="schema">
                 <list>
                   <option value="UserRole" />
@@ -682,7 +996,11 @@
         <entry key="file://$PROJECT_DIR$/device-srv/handler/service/service.go">
           <value>
             <ScannedPath>
+<<<<<<< HEAD
+              <option name="lastModified" value="1755223038865" />
+=======
               <option name="lastModified" value="1755227113552" />
+>>>>>>> master
               <option name="schema">
                 <list>
                   <option value="Server" />
@@ -694,6 +1012,24 @@
         <entry key="file://$PROJECT_DIR$/device-srv/untils/nacos.go">
           <value>
             <ScannedPath>
+<<<<<<< HEAD
+              <option name="lastModified" value="1755223038866" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/pex-srv/basic/config/config.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755248605500" />
+              <option name="schema">
+                <list>
+                  <option value="AppConfig" />
+                  <option value="RabbitMq" />
+                  <option value="Elasticsearch" />
+                  <option value="MongoDb" />
+                  <option value="Mysql" />
+                  <option value="Redis" />
+=======
               <option name="lastModified" value="1755227113552" />
             </ScannedPath>
           </value>
@@ -747,11 +1083,85 @@
               <option name="schema">
                 <list>
                   <option value="Brand" />
+>>>>>>> master
                 </list>
               </option>
             </ScannedPath>
           </value>
         </entry>
+<<<<<<< HEAD
+        <entry key="file://$PROJECT_DIR$/pex-srv/basic/config/consts.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755250680186" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/pex-srv/basic/config/global.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755248759345" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/pex-srv/basic/init/emqx.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755249487439" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/pex-srv/basic/init/es.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755248605517" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/pex-srv/basic/init/init.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755248605506" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/pex-srv/basic/init/mongo_db.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755248518780" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/pex-srv/basic/init/mysql.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755248518786" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/pex-srv/basic/init/redis.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755248518791" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/pex-srv/basic/proto/pex.pb.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755251190396" />
+              <option name="schema">
+                <list>
+                  <option value="TemperatureEMQXReq" />
+                  <option value="TemperatureEMQXResp" />
+                  <option value="BloodGlucoseEMQXReq" />
+                  <option value="BloodGlucoseEMQXResp" />
+                  <option value="BloodPressureEMQXReq" />
+                  <option value="BloodPressureEMQXResp" />
+                  <option value="BloodOxygenEMQXReq" />
+                  <option value="BloodOxygenEMQXResp" />
+                  <option value="x" />
+=======
         <entry key="file://$PROJECT_DIR$/user-srv/handler/model/user.go">
           <value>
             <ScannedPath>
@@ -759,20 +1169,64 @@
               <option name="schema">
                 <list>
                   <option value="User" />
+>>>>>>> master
                 </list>
               </option>
             </ScannedPath>
           </value>
         </entry>
+<<<<<<< HEAD
+        <entry key="file://$PROJECT_DIR$/pex-srv/basic/proto/pex_grpc.pb.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755251190435" />
+              <option name="schema">
+                <list>
+                  <option value="eMQXSrvClient" />
+                  <option value="UnimplementedEMQXSrvServer" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/pex-srv/handler/dao/brand.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755249491925" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/pex-srv/handler/dao/comment.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755250345686" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/pex-srv/handler/pkg/publishHandler.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755250335280" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/pex-srv/handler/service/service.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755250437462" />
+=======
         <entry key="file://$PROJECT_DIR$/user-srv/handler/service/service.go">
           <value>
             <ScannedPath>
               <option name="lastModified" value="1755259640079" />
+>>>>>>> master
               <option name="schema">
                 <list>
                   <option value="Server" />
                 </list>
               </option>
+<<<<<<< HEAD
+=======
             </ScannedPath>
           </value>
         </entry>
@@ -936,6 +1390,7 @@
                   <option value="ALiYun" />
                 </list>
               </option>
+>>>>>>> master
             </ScannedPath>
           </value>
         </entry>
@@ -947,6 +1402,12 @@
         <entry key="a_li_yun" value="ALiYun" />
         <entry key="add_brand_req" value="AddBrandReq" />
         <entry key="app_config" value="AppConfig" />
+        <entry key="blood_glucose_emqx_req" value="BloodGlucoseEMQXReq" />
+        <entry key="blood_glucose_emqx_resp" value="BloodGlucoseEMQXResp" />
+        <entry key="blood_oxygen_emqx_req" value="BloodOxygenEMQXReq" />
+        <entry key="blood_oxygen_emqx_resp" value="BloodOxygenEMQXResp" />
+        <entry key="blood_pressure_emqx_req" value="BloodPressureEMQXReq" />
+        <entry key="blood_pressure_emqx_resp" value="BloodPressureEMQXResp" />
         <entry key="brand" value="Brand" />
         <entry key="brand_add_req" value="BrandAddReq" />
         <entry key="brand_add_resp" value="BrandAddResp" />
@@ -960,8 +1421,13 @@
         <entry key="device" value="Device" />
         <entry key="device_srv_client" value="deviceSrvClient" />
         <entry key="device_type" value="DeviceType" />
+<<<<<<< HEAD
+        <entry key="e_mqx_srv_client" value="eMQXSrvClient" />
+        <entry key="elasticsearch" value="Elasticsearch" />
+=======
         <entry key="elasticsearch" value="Elasticsearch" />
         <entry key="es" value="ES" />
+>>>>>>> master
         <entry key="get_brand_list" value="GetBrandList" />
         <entry key="get_brand_list_req" value="GetBrandListReq" />
         <entry key="get_brand_list_resp" value="GetBrandListResp" />
@@ -977,7 +1443,10 @@
         <entry key="role" value="Role" />
         <entry key="server" value="Server" />
         <entry key="system_log" value="SystemLog" />
+        <entry key="temperature_emqx_req" value="TemperatureEMQXReq" />
+        <entry key="temperature_emqx_resp" value="TemperatureEMQXResp" />
         <entry key="unimplemented_device_srv_server" value="UnimplementedDeviceSrvServer" />
+        <entry key="unimplemented_emqx_srv_server" value="UnimplementedEMQXSrvServer" />
         <entry key="update_brand_req" value="UpdateBrandReq" />
         <entry key="user" value="User" />
         <entry key="user_device" value="UserDevice" />
