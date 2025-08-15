@@ -117,7 +117,10 @@ func (s *Server) PerfectUserInfo(_ context.Context, in *__.PerfectUserInfoReq) (
 	}
 
 	return &__.PerfectUserInfoResp{
-		UserId: int64(user.ID),
+		UserId:   int64(user.ID),
+		Mobile:   user.Mobile,
+		NickName: user.Nickname,
+		Email:    user.Email,
 	}, nil
 }
 

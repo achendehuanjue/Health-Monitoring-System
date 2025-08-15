@@ -109,6 +109,13 @@
             </set>
           </value>
         </entry>
+        <entry key="DeleteUserReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/handler/request/user.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="Device">
           <value>
             <set>
@@ -163,6 +170,20 @@
             </set>
           </value>
         </entry>
+        <entry key="GetUserDetailReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/handler/request/user.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GetUserListReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/handler/request/user.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="HealthData">
           <value>
             <set>
@@ -198,6 +219,13 @@
             </set>
           </value>
         </entry>
+        <entry key="LoginReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/handler/request/user.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="MongoDB">
           <value>
             <set>
@@ -217,6 +245,13 @@
             <set>
               <option value="file://$PROJECT_DIR$/device-srv/basic/config/config.go" />
               <option value="file://$PROJECT_DIR$/../pubilc_pkg/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="PerfectUserReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/handler/request/user.go" />
             </set>
           </value>
         </entry>
@@ -243,10 +278,24 @@
             </set>
           </value>
         </entry>
+        <entry key="RegisterReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/handler/request/user.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="Role">
           <value>
             <set>
               <option value="file://$PROJECT_DIR$/device-srv/handler/model/role.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="SendSmsReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/handler/request/user.go" />
             </set>
           </value>
         </entry>
@@ -325,14 +374,14 @@
         <entry key="file://$PROJECT_DIR$/api-gateway/basic/cmd/main.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755227113537" />
+              <option name="lastModified" value="1755261431075" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/api-gateway/basic/config/config.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755227113537" />
+              <option name="lastModified" value="1755261431140" />
             </ScannedPath>
           </value>
         </entry>
@@ -380,7 +429,7 @@
         <entry key="file://$PROJECT_DIR$/api-gateway/basic/init/grpc.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755227113540" />
+              <option name="lastModified" value="1755261463926" />
             </ScannedPath>
           </value>
         </entry>
@@ -391,10 +440,24 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/basic/init/userGrpc.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755261895466" />
+            </ScannedPath>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/api-gateway/handler/api/brand.go">
           <value>
             <ScannedPath>
               <option name="lastModified" value="1755227113541" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/handler/api/user.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755265364957" />
             </ScannedPath>
           </value>
         </entry>
@@ -413,6 +476,38 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/handler/request/user.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755265340195" />
+              <option name="schema">
+                <list>
+                  <option value="SendSmsReq" />
+                  <option value="RegisterReq" />
+                  <option value="LoginReq" />
+                  <option value="PerfectUserReq" />
+                  <option value="GetUserListReq" />
+                  <option value="GetUserDetailReq" />
+                  <option value="DeleteUserReq" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/middleware/jwt.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755264526228" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/middleware/middleware.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755263935027" />
+            </ScannedPath>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/api-gateway/router/brand.go">
           <value>
             <ScannedPath>
@@ -420,10 +515,24 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/router/pex.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755261214129" />
+            </ScannedPath>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/api-gateway/router/router.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755227113542" />
+              <option name="lastModified" value="1755261214176" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/router/user.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755265309237" />
             </ScannedPath>
           </value>
         </entry>
@@ -701,7 +810,7 @@
         <entry key="file://$PROJECT_DIR$/user-srv/basic/cmd/main.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755250034138" />
+              <option name="lastModified" value="1755265421818" />
             </ScannedPath>
           </value>
         </entry>
@@ -767,7 +876,7 @@
         <entry key="file://$PROJECT_DIR$/user-srv/handler/service/service.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755259640079" />
+              <option name="lastModified" value="1755265786825" />
               <option name="schema">
                 <list>
                   <option value="Server" />
@@ -864,7 +973,7 @@
         <entry key="file://$PROJECT_DIR$/../pubilc_pkg/middleware/jwt.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755243162611" />
+              <option name="lastModified" value="1755262661344" />
             </ScannedPath>
           </value>
         </entry>
@@ -957,6 +1066,7 @@
         <entry key="consul" value="Consul" />
         <entry key="consul_client" value="ConsulClient" />
         <entry key="del_brand_req" value="DelBrandReq" />
+        <entry key="delete_user_req" value="DeleteUserReq" />
         <entry key="device" value="Device" />
         <entry key="device_srv_client" value="deviceSrvClient" />
         <entry key="device_type" value="DeviceType" />
@@ -965,16 +1075,22 @@
         <entry key="get_brand_list" value="GetBrandList" />
         <entry key="get_brand_list_req" value="GetBrandListReq" />
         <entry key="get_brand_list_resp" value="GetBrandListResp" />
+        <entry key="get_user_detail_req" value="GetUserDetailReq" />
+        <entry key="get_user_list_req" value="GetUserListReq" />
         <entry key="health_data" value="HealthData" />
         <entry key="health_data_type" value="HealthDataType" />
         <entry key="health_report" value="HealthReport" />
         <entry key="jwt" value="JWT" />
         <entry key="jwt_claims" value="JWTClaims" />
+        <entry key="login_req" value="LoginReq" />
         <entry key="mongo_db" value="MongoDb" />
         <entry key="mysql" value="Mysql" />
+        <entry key="perfect_user_req" value="PerfectUserReq" />
         <entry key="rabbit_mq" value="RabbitMq" />
         <entry key="redis" value="Redis" />
+        <entry key="register_req" value="RegisterReq" />
         <entry key="role" value="Role" />
+        <entry key="send_sms_req" value="SendSmsReq" />
         <entry key="server" value="Server" />
         <entry key="system_log" value="SystemLog" />
         <entry key="unimplemented_device_srv_server" value="UnimplementedDeviceSrvServer" />

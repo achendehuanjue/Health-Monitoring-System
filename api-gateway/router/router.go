@@ -13,5 +13,7 @@ func LoadRouters(r *gin.Engine) {
 	v1 := r.Group("/v1")
 	{
 		BrandRouter(v1)
+		PexRouter(v1)
+		UserRouter(v1)
 	}
 }

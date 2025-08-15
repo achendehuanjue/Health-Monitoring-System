@@ -5,8 +5,8 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func PexRouter(r *gin.Engine) {
-	pex := r.Group("/pex")
+func PexRouter(v1 *gin.RouterGroup) {
+	pex := v1.Group("/pex")
 	{
 		pex.POST("/temperature", api.PexTemperature) //体温EMQX订阅
 
