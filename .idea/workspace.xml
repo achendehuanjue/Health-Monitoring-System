@@ -7,9 +7,6 @@
     <list default="true" id="a95a8f12-db7f-49f5-b27f-8c1c213830d4" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/GOHCache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GOHCache.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/basic/cmd/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/basic/config/config.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/basic/config/global.go" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/basic/config/global.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,12 +16,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Proto Template" />
         <option value="Go File" />
+        <option value="Proto Template" />
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file://$PROJECT_DIR$/../../go1.23.10" />
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../bin/go1.23.10" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -47,14 +44,15 @@
     "RunOnceActivity.GoLinterPluginOnboarding": "true",
     "RunOnceActivity.GoLinterPluginStorageMigration": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "zhc",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "D:/gowork/src/Health-Monitoring-System",
+    "last_opened_file_path": "D:/gowork/src/Health-Monitoring-System/user-srv/untils",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -64,6 +62,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\gowork\src\Health-Monitoring-System\user-srv\untils" />
+      <recent name="D:\gowork\src\Health-Monitoring-System\user-srv\pkg" />
       <recent name="D:\gowork\src\Health-Monitoring-System" />
       <recent name="D:\gowork\src\Health-Monitoring-System\api-gateway\basic" />
     </key>

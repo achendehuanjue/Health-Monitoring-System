@@ -1,0 +1,94 @@
+syntax = "proto3";
+
+package proto;
+
+option go_package = "/";
+
+//短信
+message SendSmsReq {
+  string mobile = 1;
+}
+message SendSmsResp {}
+
+//用户注册
+message RegisterReq {
+  string mobile = 1;
+  string password = 2;
+  string smsCode = 3;
+}
+message RegisterResp {
+  int64 userId = 1;
+}
+
+//用户登录
+message LoginReq {
+  string mobile = 1;
+  string password = 2;
+}
+message LoginResp {
+  int64 userId = 1;
+}
+
+//完善用户信息
+message PerfectUserInfoReq {
+  int64 userId = 1;
+  string nickName = 2;
+  string email = 3;
+}
+message PerfectUserInfoResp {
+  int64 userId = 1;
+  string mobile = 2;
+  string nickName = 3;
+  string email = 4;
+}
+
+//用户列表
+message GetUserListReq {
+  int64 page = 1;
+  int64 pageSize = 2;
+}
+message GetUserListResp {
+  repeated GetUserInfo userList = 1;
+}
+message GetUserInfo {
+  int64 userId = 1;
+  string mobile = 2;
+  string password = 3;
+  string nickName = 4;
+  string email = 5;
+}
+
+//用户详情
+message GetUserDetailReq {
+  int64 userId = 1;
+}
+message GetUserDetailResp {
+  int64 userId = 1;
+  string mobile = 2;
+  string password = 3;
+  string nickName = 4;
+  string email = 5;
+}
+
+//用户注销
+message DeleteUserReq {
+  int64 userId = 1;
+}
+message DeleteUserResp {}
+
+service User {
+  //短信
+  rpc SendSms(SendSmsReq) returns (SendSmsResp);
+  //用户注册
+  rpc Register(RegisterReq) returns (RegisterResp);
+  //用户登录
+  rpc Login(LoginReq) returns (LoginResp);
+  //完善用户信息
+  rpc PerfectUserInfo(PerfectUserInfoReq) returns (PerfectUserInfoResp);
+  //用户列表
+  rpc GetUserList(GetUserListReq) returns (GetUserListResp);
+  //用户详情
+  rpc GetUserDetail(GetUserDetailReq) returns (GetUserDetailResp);
+  //用户注销
+  rpc DeleteUser(DeleteUserReq) returns (DeleteUserResp);
+}
