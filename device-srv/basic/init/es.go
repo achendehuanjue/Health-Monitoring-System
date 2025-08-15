@@ -1,7 +1,7 @@
 package init
 
 import (
-	"demo-srv/basic/config"
+	"device-srv/basic/config"
 	"fmt"
 	"github.com/elastic/go-elasticsearch/v7"
 	"log"

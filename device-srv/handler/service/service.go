@@ -2,8 +2,8 @@ package service
 
 import (
 	"context"
-	__ "demo-srv/basic/proto"
-	"demo-srv/handler/model"
+	__ "device-srv/basic/proto"
+	"device-srv/handler/model"
 	"errors"
 	"gorm.io/gorm"
 )
@@ -92,5 +92,29 @@ func (s *Server) GetBrandList(_ context.Context, in *__.GetBrandListReq) (*__.Ge
 		Page:     in.Page,
 		PageSize: in.PageSize,
 		Total:    0,
+	}, nil
+}
+
+func (s *Server) DeviceList(_ context.Context, in *__.DeviceListReq) (*__.DeviceListResp, error) {
+	var userDevice model.UserDevice
+	userDevice.UserID = in.UserId
+	brandList, err := userDevice.GetUserDeviceInfo(int(in.Page), int(in.PageSize))
+	if err != nil {
+		return nil, err
+	}
+	var list []*__.DeviceList
+	for _, info := range brandList {
+		list = append(list, &__.DeviceList{
+			Id:         info.Id,
+			NickName:   info.NickName,
+			DeviceName: info.DeviceName,
+			Mobile:     info.Mobile,
+			Email:      info.Email,
+		})
+	}
+	return &__.DeviceListResp{
+		List:     list,
+		Page:     in.Page,
+		PageSize: in.PageSize,
 	}, nil
 }

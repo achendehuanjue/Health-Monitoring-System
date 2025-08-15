@@ -1,9 +1,9 @@
 package main
 
 import (
-	_ "demo-srv/basic/init"
-	__ "demo-srv/basic/proto"
-	"demo-srv/handler/service"
+	_ "device-srv/basic/init"
+	__ "device-srv/basic/proto"
+	"device-srv/handler/service"
 	"flag"
 	"google.golang.org/grpc"
 	"log"

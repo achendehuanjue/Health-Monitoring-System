@@ -1,7 +1,7 @@
 package viper
 
 import (
-	"demo-srv/basic/config"
+	"device-srv/basic/config"
 	"github.com/spf13/viper"
 	"log"
 )

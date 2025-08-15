@@ -2,7 +2,6 @@ package main
 
 import (
 	_ "api-gateway/basic/init"
-	_ "api-gateway/docs"
 	"api-gateway/router"
 	"context"
 	"github.com/gin-gonic/gin"

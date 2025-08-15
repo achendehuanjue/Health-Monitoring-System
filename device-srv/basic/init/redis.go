@@ -1,7 +1,7 @@
 package init
 
 import (
-	"demo-srv/basic/config"
+	"device-srv/basic/config"
 	"fmt"
 	"github.com/go-redis/redis/v8"
 	"log"
