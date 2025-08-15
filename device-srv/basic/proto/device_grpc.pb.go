@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.4.0
 // - protoc             v3.19.4
-// source: device.proto
+// source: device.pex-proto
 
 package __
 
@@ -19,11 +19,18 @@ import (
 const _ = grpc.SupportPackageIsVersion8
 
 const (
+<<<<<<< HEAD
 	DeviceSrv_DeviceList_FullMethodName   = "/proto.DeviceSrv/DeviceList"
 	DeviceSrv_BrandAdd_FullMethodName     = "/proto.DeviceSrv/BrandAdd"
 	DeviceSrv_BrandDel_FullMethodName     = "/proto.DeviceSrv/BrandDel"
 	DeviceSrv_BrandUpdate_FullMethodName  = "/proto.DeviceSrv/BrandUpdate"
 	DeviceSrv_GetBrandList_FullMethodName = "/proto.DeviceSrv/GetBrandList"
+=======
+	DeviceSrv_BrandAdd_FullMethodName     = "/pex-proto.DeviceSrv/BrandAdd"
+	DeviceSrv_BrandDel_FullMethodName     = "/pex-proto.DeviceSrv/BrandDel"
+	DeviceSrv_BrandUpdate_FullMethodName  = "/pex-proto.DeviceSrv/BrandUpdate"
+	DeviceSrv_GetBrandList_FullMethodName = "/pex-proto.DeviceSrv/GetBrandList"
+>>>>>>> master
 )
 
 // DeviceSrvClient is the client API for DeviceSrv service.
@@ -233,7 +240,7 @@ func _DeviceSrv_GetBrandList_Handler(srv interface{}, ctx context.Context, dec f
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var DeviceSrv_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "proto.DeviceSrv",
+	ServiceName: "pex-proto.DeviceSrv",
 	HandlerType: (*DeviceSrvServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{
@@ -258,5 +265,5 @@ var DeviceSrv_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "device.proto",
+	Metadata: "device.pex-proto",
 }

@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.4.0
 // - protoc             v3.19.4
-// source: pex.pex-proto
+// source: pex.proto
 
 package __
 
@@ -19,10 +19,10 @@ import (
 const _ = grpc.SupportPackageIsVersion8
 
 const (
-	EMQXSrv_TemperatureEMQX_FullMethodName   = "/pex-proto.EMQXSrv/TemperatureEMQX"
-	EMQXSrv_BloodGlucoseEMQX_FullMethodName  = "/pex-proto.EMQXSrv/BloodGlucoseEMQX"
-	EMQXSrv_BloodPressureEMQX_FullMethodName = "/pex-proto.EMQXSrv/BloodPressureEMQX"
-	EMQXSrv_BloodOxygenEMQX_FullMethodName   = "/pex-proto.EMQXSrv/BloodOxygenEMQX"
+	EMQXSrv_TemperatureEMQX_FullMethodName   = "/proto.EMQXSrv/TemperatureEMQX"
+	EMQXSrv_BloodGlucoseEMQX_FullMethodName  = "/proto.EMQXSrv/BloodGlucoseEMQX"
+	EMQXSrv_BloodPressureEMQX_FullMethodName = "/proto.EMQXSrv/BloodPressureEMQX"
+	EMQXSrv_BloodOxygenEMQX_FullMethodName   = "/proto.EMQXSrv/BloodOxygenEMQX"
 )
 
 // EMQXSrvClient is the client API for EMQXSrv service.
@@ -199,7 +199,7 @@ func _EMQXSrv_BloodOxygenEMQX_Handler(srv interface{}, ctx context.Context, dec 
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var EMQXSrv_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "pex-proto.EMQXSrv",
+	ServiceName: "proto.EMQXSrv",
 	HandlerType: (*EMQXSrvServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{
@@ -220,5 +220,5 @@ var EMQXSrv_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "pex.pex-proto",
+	Metadata: "pex.proto",
 }

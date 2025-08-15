@@ -2,7 +2,7 @@
 // versions:
 // 	protoc-gen-go v1.34.2
 // 	protoc        v3.19.4
-// source: device.proto
+// source: device.pex-proto
 
 package __
 
@@ -857,6 +857,7 @@ func file_device_proto_rawDescGZIP() []byte {
 
 var file_device_proto_msgTypes = make([]protoimpl.MessageInfo, 12)
 var file_device_proto_goTypes = []any{
+<<<<<<< HEAD
 	(*DeviceListReq)(nil),    // 0: proto.DeviceListReq
 	(*DeviceListResp)(nil),   // 1: proto.DeviceListResp
 	(*DeviceList)(nil),       // 2: proto.DeviceList
@@ -888,6 +889,33 @@ var file_device_proto_depIdxs = []int32{
 	2,  // [2:2] is the sub-list for extension type_name
 	2,  // [2:2] is the sub-list for extension extendee
 	0,  // [0:2] is the sub-list for field type_name
+=======
+	(*BrandAddReq)(nil),      // 0: pex-proto.BrandAddReq
+	(*BrandAddResp)(nil),     // 1: pex-proto.BrandAddResp
+	(*BrandDelReq)(nil),      // 2: pex-proto.BrandDelReq
+	(*BrandDelResp)(nil),     // 3: pex-proto.BrandDelResp
+	(*BrandUpdateReq)(nil),   // 4: pex-proto.BrandUpdateReq
+	(*BrandUpdateResp)(nil),  // 5: pex-proto.BrandUpdateResp
+	(*GetBrandListReq)(nil),  // 6: pex-proto.GetBrandListReq
+	(*GetBrandListResp)(nil), // 7: pex-proto.GetBrandListResp
+	(*GetBrandList)(nil),     // 8: pex-proto.GetBrandList
+}
+var file_device_proto_depIdxs = []int32{
+	8, // 0: pex-proto.GetBrandListResp.list:type_name -> pex-proto.GetBrandList
+	0, // 1: pex-proto.DeviceSrv.BrandAdd:input_type -> pex-proto.BrandAddReq
+	2, // 2: pex-proto.DeviceSrv.BrandDel:input_type -> pex-proto.BrandDelReq
+	4, // 3: pex-proto.DeviceSrv.BrandUpdate:input_type -> pex-proto.BrandUpdateReq
+	6, // 4: pex-proto.DeviceSrv.GetBrandList:input_type -> pex-proto.GetBrandListReq
+	1, // 5: pex-proto.DeviceSrv.BrandAdd:output_type -> pex-proto.BrandAddResp
+	3, // 6: pex-proto.DeviceSrv.BrandDel:output_type -> pex-proto.BrandDelResp
+	5, // 7: pex-proto.DeviceSrv.BrandUpdate:output_type -> pex-proto.BrandUpdateResp
+	7, // 8: pex-proto.DeviceSrv.GetBrandList:output_type -> pex-proto.GetBrandListResp
+	5, // [5:9] is the sub-list for method output_type
+	1, // [1:5] is the sub-list for method input_type
+	1, // [1:1] is the sub-list for extension type_name
+	1, // [1:1] is the sub-list for extension extendee
+	0, // [0:1] is the sub-list for field type_name
+>>>>>>> master
 }
 
 func init() { file_device_proto_init() }
