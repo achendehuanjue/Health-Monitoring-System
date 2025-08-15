@@ -2,7 +2,7 @@
 // versions:
 // 	protoc-gen-go v1.36.6
 // 	protoc        v3.19.4
-// source: pex.pex-proto
+// source: pex.proto
 
 package __
 
@@ -317,7 +317,7 @@ var File_pex_proto protoreflect.FileDescriptor
 
 const file_pex_proto_rawDesc = "" +
 	"\n" +
-	"\tpex.pex-proto\x12\x05proto\"\x14\n" +
+	"\tpex.proto\x12\x05proto\"\x14\n" +
 	"\x12TemperatureEMQXReq\"\x15\n" +
 	"\x13TemperatureEMQXResp\"\x15\n" +
 	"\x13BloodGlucoseEMQXReq\"\x16\n" +
@@ -327,10 +327,10 @@ const file_pex_proto_rawDesc = "" +
 	"\x12BloodOxygenEMQXReq\"\x15\n" +
 	"\x13BloodOxygenEMQXResp2\xba\x02\n" +
 	"\aEMQXSrv\x12H\n" +
-	"\x0fTemperatureEMQX\x12\x19.pex-proto.TemperatureEMQXReq\x1a\x1a.pex-proto.TemperatureEMQXResp\x12K\n" +
-	"\x10BloodGlucoseEMQX\x12\x1a.pex-proto.BloodGlucoseEMQXReq\x1a\x1b.pex-proto.BloodGlucoseEMQXResp\x12N\n" +
-	"\x11BloodPressureEMQX\x12\x1b.pex-proto.BloodPressureEMQXReq\x1a\x1c.pex-proto.BloodPressureEMQXResp\x12H\n" +
-	"\x0fBloodOxygenEMQX\x12\x19.pex-proto.BloodOxygenEMQXReq\x1a\x1a.pex-proto.BloodOxygenEMQXRespB\x03Z\x01/b\x06proto3"
+	"\x0fTemperatureEMQX\x12\x19.proto.TemperatureEMQXReq\x1a\x1a.proto.TemperatureEMQXResp\x12K\n" +
+	"\x10BloodGlucoseEMQX\x12\x1a.proto.BloodGlucoseEMQXReq\x1a\x1b.proto.BloodGlucoseEMQXResp\x12N\n" +
+	"\x11BloodPressureEMQX\x12\x1b.proto.BloodPressureEMQXReq\x1a\x1c.proto.BloodPressureEMQXResp\x12H\n" +
+	"\x0fBloodOxygenEMQX\x12\x19.proto.BloodOxygenEMQXReq\x1a\x1a.proto.BloodOxygenEMQXRespB\x03Z\x01/b\x06proto3"
 
 var (
 	file_pex_proto_rawDescOnce sync.Once
@@ -346,24 +346,24 @@ func file_pex_proto_rawDescGZIP() []byte {
 
 var file_pex_proto_msgTypes = make([]protoimpl.MessageInfo, 8)
 var file_pex_proto_goTypes = []any{
-	(*TemperatureEMQXReq)(nil),    // 0: pex-proto.TemperatureEMQXReq
-	(*TemperatureEMQXResp)(nil),   // 1: pex-proto.TemperatureEMQXResp
-	(*BloodGlucoseEMQXReq)(nil),   // 2: pex-proto.BloodGlucoseEMQXReq
-	(*BloodGlucoseEMQXResp)(nil),  // 3: pex-proto.BloodGlucoseEMQXResp
-	(*BloodPressureEMQXReq)(nil),  // 4: pex-proto.BloodPressureEMQXReq
-	(*BloodPressureEMQXResp)(nil), // 5: pex-proto.BloodPressureEMQXResp
-	(*BloodOxygenEMQXReq)(nil),    // 6: pex-proto.BloodOxygenEMQXReq
-	(*BloodOxygenEMQXResp)(nil),   // 7: pex-proto.BloodOxygenEMQXResp
+	(*TemperatureEMQXReq)(nil),    // 0: proto.TemperatureEMQXReq
+	(*TemperatureEMQXResp)(nil),   // 1: proto.TemperatureEMQXResp
+	(*BloodGlucoseEMQXReq)(nil),   // 2: proto.BloodGlucoseEMQXReq
+	(*BloodGlucoseEMQXResp)(nil),  // 3: proto.BloodGlucoseEMQXResp
+	(*BloodPressureEMQXReq)(nil),  // 4: proto.BloodPressureEMQXReq
+	(*BloodPressureEMQXResp)(nil), // 5: proto.BloodPressureEMQXResp
+	(*BloodOxygenEMQXReq)(nil),    // 6: proto.BloodOxygenEMQXReq
+	(*BloodOxygenEMQXResp)(nil),   // 7: proto.BloodOxygenEMQXResp
 }
 var file_pex_proto_depIdxs = []int32{
-	0, // 0: pex-proto.EMQXSrv.TemperatureEMQX:input_type -> pex-proto.TemperatureEMQXReq
-	2, // 1: pex-proto.EMQXSrv.BloodGlucoseEMQX:input_type -> pex-proto.BloodGlucoseEMQXReq
-	4, // 2: pex-proto.EMQXSrv.BloodPressureEMQX:input_type -> pex-proto.BloodPressureEMQXReq
-	6, // 3: pex-proto.EMQXSrv.BloodOxygenEMQX:input_type -> pex-proto.BloodOxygenEMQXReq
-	1, // 4: pex-proto.EMQXSrv.TemperatureEMQX:output_type -> pex-proto.TemperatureEMQXResp
-	3, // 5: pex-proto.EMQXSrv.BloodGlucoseEMQX:output_type -> pex-proto.BloodGlucoseEMQXResp
-	5, // 6: pex-proto.EMQXSrv.BloodPressureEMQX:output_type -> pex-proto.BloodPressureEMQXResp
-	7, // 7: pex-proto.EMQXSrv.BloodOxygenEMQX:output_type -> pex-proto.BloodOxygenEMQXResp
+	0, // 0: proto.EMQXSrv.TemperatureEMQX:input_type -> proto.TemperatureEMQXReq
+	2, // 1: proto.EMQXSrv.BloodGlucoseEMQX:input_type -> proto.BloodGlucoseEMQXReq
+	4, // 2: proto.EMQXSrv.BloodPressureEMQX:input_type -> proto.BloodPressureEMQXReq
+	6, // 3: proto.EMQXSrv.BloodOxygenEMQX:input_type -> proto.BloodOxygenEMQXReq
+	1, // 4: proto.EMQXSrv.TemperatureEMQX:output_type -> proto.TemperatureEMQXResp
+	3, // 5: proto.EMQXSrv.BloodGlucoseEMQX:output_type -> proto.BloodGlucoseEMQXResp
+	5, // 6: proto.EMQXSrv.BloodPressureEMQX:output_type -> proto.BloodPressureEMQXResp
+	7, // 7: proto.EMQXSrv.BloodOxygenEMQX:output_type -> proto.BloodOxygenEMQXResp
 	4, // [4:8] is the sub-list for method output_type
 	0, // [0:4] is the sub-list for method input_type
 	0, // [0:0] is the sub-list for extension type_name
