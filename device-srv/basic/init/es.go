@@ -8,7 +8,7 @@ import (
 )
 
 func InitEs() {
-	addr := fmt.Sprintf("http://%s:%s", config.AppConf.Elasticsearch.Host, config.AppConf.Elasticsearch.Port)
+	addr := fmt.Sprintf("http://%s:%d", config.AppConf.Elasticsearch.Host, config.AppConf.Elasticsearch.Port)
 	cfg := elasticsearch.Config{
 		Addresses: []string{
 			addr,
