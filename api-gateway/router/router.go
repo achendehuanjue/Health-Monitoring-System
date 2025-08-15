@@ -7,5 +7,4 @@ func LoadRouters(r *gin.Engine) {
 	{
 		BrandRouter(v1)
 	}
-
 }
