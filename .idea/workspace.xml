@@ -7,6 +7,7 @@
     <list default="true" id="a95a8f12-db7f-49f5-b27f-8c1c213830d4" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/GOHCache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GOHCache.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/api-gateway/basic/cmd/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/basic/cmd/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/basic/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/basic/config/config.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/basic/init/grpc.go" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/basic/init/grpc.go" afterDir="false" />
@@ -17,6 +18,13 @@
       <change beforePath="$PROJECT_DIR$/api-gateway/router/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/router/router.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-srv/basic/cmd/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/user-srv/basic/cmd/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-srv/handler/service/service.go" beforeDir="false" afterPath="$PROJECT_DIR$/user-srv/handler/service/service.go" afterDir="false" />
+=======
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/device-srv/basic/proto/device.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/device-srv/basic/proto/device.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/device-srv/basic/proto/device_grpc.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/device-srv/basic/proto/device_grpc.pb.go" afterDir="false" />
+=======
+>>>>>>> master
+>>>>>>> master
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +39,11 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../Go/pkg/mod/golang.org/toolchain@v0.0.1-go1.23.10.windows-amd64" />
+=======
   <component name="GOROOT" url="file://$PROJECT_DIR$/../../bin/go1.23.10" />
+>>>>>>> master
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -59,10 +71,21 @@
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "git-widget-placeholder": "zhc",
+<<<<<<< HEAD
+    "git-widget-placeholder": "TheChen",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
     "last_opened_file_path": "D:/gowork/src/Health-Monitoring-System/api-gateway/basic",
+=======
+    "git-widget-placeholder": "zhc",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+<<<<<<< HEAD
+    "last_opened_file_path": "D:/gowork/src/Health-Monitoring-System/api-gateway/basic",
+=======
+    "last_opened_file_path": "D:/gowork/src/Health-Monitoring-System/user-srv/untils",
+>>>>>>> master
+>>>>>>> master
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -72,10 +95,23 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+<<<<<<< HEAD
       <recent name="D:\gowork\src\Health-Monitoring-System\api-gateway\basic" />
       <recent name="D:\gowork\src\Health-Monitoring-System\user-srv\untils" />
       <recent name="D:\gowork\src\Health-Monitoring-System\user-srv\pkg" />
       <recent name="D:\gowork\src\Health-Monitoring-System" />
+=======
+<<<<<<< HEAD
+=======
+      <recent name="D:\gowork\src\Health-Monitoring-System\user-srv\untils" />
+      <recent name="D:\gowork\src\Health-Monitoring-System\user-srv\pkg" />
+      <recent name="D:\gowork\src\Health-Monitoring-System" />
+>>>>>>> master
+      <recent name="D:\gowork\src\Health-Monitoring-System\api-gateway\basic" />
+      <recent name="D:\gowork\src\Health-Monitoring-System\pex-srv\handler" />
+      <recent name="D:\gowork\src\Health-Monitoring-System\pex-srv\basic\init" />
+      <recent name="D:\gowork\src\Health-Monitoring-System" />
+>>>>>>> master
     </key>
   </component>
   <component name="RunManager">
