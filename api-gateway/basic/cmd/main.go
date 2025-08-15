@@ -2,9 +2,12 @@ package main
 
 import (
 	_ "api-gateway/basic/init"
+	_ "api-gateway/docs"
 	"api-gateway/router"
 	"context"
 	"github.com/gin-gonic/gin"
+	swaggerFiles "github.com/swaggo/files"
+	ginSwagger "github.com/swaggo/gin-swagger"
 	"log"
 	"net/http"
 	"os"
@@ -12,9 +15,26 @@ import (
 	"time"
 )
 
+//@title 健康检测系统
+//@version 1.0
+//@description This is an API Gateway service
+//@termsOfService http://swagger.io/terms/
+
+//@contact.name API Support
+//@contact.url http://www.swagger.io/support
+//@contact.email support@swagger.io
+
+//@license.name Apache 2.0
+//@license.url http://www.apache.org/licenses/LICENSE-2.0.html
+
+// @host 127.0.0.1:8080
+// @BasePath /v1
 func main() {
 	r := gin.Default()
+
 	router.LoadRouters(r)
+	// 添加 Swagger 路由
+	r.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
 	srv := &http.Server{
 		Addr:    ":8080",
 		Handler: r,
